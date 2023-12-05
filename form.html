@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="form.css">
+    </header>
+    <body>
+        <form action="/" method="post" autocomplete="on">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="full name" required><br>
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email" placeholder="E-mail address"><br>
+            <label for="subject">Subject: </label><br>
+            <input type="radio" id="sale" name="subject" value="sale" checked>
+            <label for="sale">Sale</label><br>
+            <input type="radio" id="support" name="subject" value="support">
+            <label for="support">Support</label><br>
+            <input type="radio" id="others" name="subject" value="others">
+            <label for="others">Others</label><br>
+            <label for="message">Message:</label><br>
+            <textarea id="textarea" name="message" rows="4" cols="20"></textarea><br>
+            <input type="submit" value="submit"> 
+        </form>
+    </body>
+</html>
